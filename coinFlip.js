@@ -3,9 +3,18 @@ var choice;
 var result;
 
 choice = window.prompt("Select 'Heads' Or 'Tails'");
+
+// ****** Method 1 *****
+
+/*
+coinFlip = Math.random();
+result = coinFlip>0.5? 'Heads' : 'Tails';
+*/
+
+// ***** Method 2 (Modification)*****
 coinFlip = Math.round(Math.random());
 result = coinFlip==0? 'Heads' : 'Tails';
-console.log('result:'+result);
+console.log('coinFlip:'+coinFlip+'result:'+result);
 switch (result) {
     case 'Heads':
             console.log(choice);

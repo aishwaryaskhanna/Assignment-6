@@ -4,8 +4,8 @@ for (var i = 0; i < 10; i++) {
     coinFlip = Math.round(Math.random());
     result = coinFlip==0? 'Heads' : 'Tails';
     if(result=='Heads'){
-        document.write("Heads");
+        document.write("Heads</br>");
     }else{
-        document.write("Tails");
+        document.write("Tails</br>");
     }
 }

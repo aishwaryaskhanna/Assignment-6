@@ -4,7 +4,7 @@ do {
     coinFlip = Math.round(Math.random());
     result = coinFlip==0? 'Heads' : 'Tails';
     if(result=='Heads'){
-        document.write("Heads");
+        document.write("Heads</br>");
     }else{
         document.write("Tails");
     }
